@@ -4,6 +4,7 @@ import axios from "axios"
 
 function Admin() {
   //checking 
+  const obj={};
   const [name, setName] = useState("");
   const [sub, setSub] = useState("");
   const [url, setUrl] = useState("https://thumbs.dreamstime.com/b/eyeglasses-bearded-asian-man-relaxed-standing-d-vector-avatar-illustration-cheerful-mature-male-cartoon-character-face-confident-297508057.jpg");
